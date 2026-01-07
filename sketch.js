@@ -1,7 +1,7 @@
 let handData = [];
 let particles = [];
 let capture; 
-const numParticles = 1000; 
+const numParticles = 400; 
 let wasActive = false;
 let currentMode = ""; 
 
@@ -213,4 +213,5 @@ class Particle {
         } else { stroke(255, 120); strokeWeight(2.5); }
         point(this.pos.x, this.pos.y);
     }
+
 }
